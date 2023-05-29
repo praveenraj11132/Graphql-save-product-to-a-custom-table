@@ -1,0 +1,3 @@
+type Mutation {
+    saveRecentlyAddedProducts(productId: Int!): Boolean @resolver(class: "Wheelpros\\Graphql\\Model\\Resolver\\SaveRecentlyAddedProducts") @doc(description: "Save recently added products to custom database table")
+}
